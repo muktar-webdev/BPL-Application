@@ -2,11 +2,18 @@ body {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  background-color:#fef8f0;
+  background-color: #fef8f0;
 }
 
-.App{
+.App {
   width: 100%;
   min-height: 100vh;
-  background-color: #ebe0d1a9;
+
+  /* --GlassMorphism-- */
+  background-color: #f5e0c4;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  border-radius: 10px;
 }
