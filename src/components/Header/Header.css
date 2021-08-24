@@ -1,0 +1,29 @@
+.topbar {
+  width: 100%;
+  overflow: auto;
+  /* background-color:black; */
+}
+.topbar a {
+  float: left;
+  padding: 16px;
+  color: #040438;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 500;
+}
+.topbar a img {
+  width: 8%;
+  border-radius: 50%;
+  margin-left: 10%;
+}
+
+.topbar a:hover{
+background-color: #ebe0d1a9;
+}
+
+@media screen and (max-width: 500px) {
+    .topbar a {
+      float: none;
+      display: block;
+    }
+  }
