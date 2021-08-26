@@ -2,6 +2,7 @@ import React from "react";
 import "./Players.css";
 
 const Players = (props) => {
+  const handleAddPlayerBtn = props.playerInfo;
   const player = props.player;
   const { name, img, position, batting, bowling, salary } = player;
   return (
@@ -12,8 +13,13 @@ const Players = (props) => {
         <p>{position}</p>
         <p>Batting Average: {batting}</p>
         <p>Bowling Average: {bowling}</p>
-        <p>Salary : {salary}</p>
-        <button className="player-btn">Add Player</button>
+        <p>Salary : {salary} Cores</p>
+        <button
+          className="player-btn"
+          onClick={() => handleAddPlayerBtn(player)}
+        >
+          Add Player
+        </button>
       </div>
     </div>
   );

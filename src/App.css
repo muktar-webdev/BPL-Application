@@ -19,14 +19,14 @@ body {
 }
 
 /* --For Players Component Start-- */
-.app-container {
+.player-app-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   /* gap: 1rem; */
 }
 
 @media only screen and (max-width: 600px) {
-  .app-container {
+  .player-app-container {
     grid-template-columns: repeat(1, 1fr);
   }
 }
