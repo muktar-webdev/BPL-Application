@@ -16,25 +16,39 @@ function App() {
 
   // --player selection state --//
   const [playerAdd, setPlayerAdd] = useState([]);
+
   // --Handle add player btn --//
   const handleAddPlayerBtn = (playerInfo) => {
     const playerSelection = [...playerAdd, playerInfo];
     setPlayerAdd(playerSelection);
   };
+
   const totalPlayerOctionCost = playerAdd.reduce((totalCost, element) => {
     const number = parseInt(element.salary);
     const totalSalary = totalCost + number;
     return totalSalary;
   }, 0);
-  console.log(totalPlayerOctionCost);
+
+  // --Budget Calculation --//
+  const maxBudget = 20;
+  let moneyLeft = maxBudget - totalPlayerOctionCost;
+  let budgetMessage = "";
+  if (moneyLeft > 0) {
+    moneyLeft = 0;
+    budgetMessage = "Continue Bying!";
+  } else {
+    budgetMessage = "Opps!Your Budget is Over!";
+  }
+
   return (
     <div className="App">
       <div className="player-oction" style={{ textAlign: "center" }}>
         <p>Total Player Added : {playerAdd.length}</p>
-        <p>Total Budget : 20 Cores</p>
+        <p>Total Budget : {maxBudget} Cores</p>
         <p>Total Player Buying Prize : {totalPlayerOctionCost}</p>
         <hr />
-        <p>Money Left : {20 - totalPlayerOctionCost} </p>
+        <p>Money Left : {moneyLeft} Cores</p>
+        <p style={{ fontSize: "1.5rem", color: "navy" }}>{budgetMessage}</p>
       </div>
       {/* <Header></Header>
       <Main></Main>
