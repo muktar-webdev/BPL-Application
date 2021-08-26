@@ -1,0 +1,67 @@
+.footer-container {
+  margin-top: 4rem;
+  background-color: #01011fee;
+}
+.section-container {
+    padding-top: 0.8rem;
+  width: 100%;
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.one-fourth-width {
+  height: 100%;
+  color: #fff;
+  padding-left: 2rem;
+}
+.bpl {
+  font-size: 17px;
+  font-weight: 500;
+}
+.bpl h2 {
+  margin-left: 5rem;
+  margin-top: 4.5rem;
+}
+.section-container p {
+  font-size: 12px;
+}
+
+/* --Socaial Icons -- */
+.social-icons {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 2rem;
+}
+.social-icons .icon {
+  margin: 1rem;
+}
+.twitter,
+.facebook {
+  color: blue;
+}
+.instragram {
+  color: #c56b6b;
+}
+
+.youtube {
+  color: red;
+}
+.icon:hover {
+  /* font-size: 2.5rem; */
+  animation: icon 10s linear 0s infinite;
+}
+@keyframes icon {
+  from {
+    color: black;
+  }
+  to {
+    color: inherit;
+  }
+}
+.credit {
+    margin-top: 0.5rem;
+  border-top: 1px solid grey;
+  color: #fff;
+  text-align: center;
+  padding: 0.5rem;
+}
