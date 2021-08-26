@@ -1,0 +1,121 @@
+[{
+    "id": 1,
+    "name": "Imrul Kayes",
+    "img": "https://i.ibb.co/5hXP3jq/imrul-kayes.jpg",
+    "position": "Left-Hand Batasman",
+    "batting": "20,5",
+    "bowling": "0.00",
+    "salary": "2"
+}, {
+    "id": 2,
+    "name": "Mehedy Hasan",
+    "img": "https://i.ibb.co/7G2D2jv/mahedy-img.jpg",
+    "position": "All Rounder",
+    "batting": "15,5",
+    "bowling": "7.00",
+    "salary": "2.5"
+}, {
+    "id": 3,
+    "name": "Mahmudullah Riyad",
+    "img": "https://i.ibb.co/Ptz7yHm/mahmudullah-img.jpg",
+    "position": "All Rounder",
+    "batting": "30,5",
+    "bowling": "8.00",
+    "salary": "5"
+}, {
+    "id": 4,
+    "name": "Mushfiqur Rahman",
+    "img": "https://i.ibb.co/G2nKxMf/mashrafi-img.png",
+    "position": "Wicket-Keeper Batsman",
+    "batting": "40,5",
+    "bowling": "0.00",
+    "salary": 5
+}, {
+    "id": 5,
+    "name": "Mominul Haque",
+    "img": "https://i.ibb.co/zx39dtF/mominul-haque.jpg",
+    "position": "Batsman",
+    "batting": "20,5",
+    "bowling": "9.00",
+    "salary": 1
+}, {
+    "id": 6,
+    "name": "Mossadak Hossain",
+    "img": "https://i.ibb.co/6gjYtcb/mossada-img.jpg",
+    "position": "Batsman",
+    "batting": "20,5",
+    "bowling": "9.00",
+    "salary": 1
+}, {
+    "id": 7,
+    "name": "Mustafizur Rahman",
+    "img": "https://i.ibb.co/Rhwpxnh/mustafiqur-img.png",
+    "position": "Left-Arm Bowler",
+    "batting": "5.5",
+    "bowling": "6.50",
+    "salary": 8
+}, {
+    "id": 8,
+    "name": "Mashrafi Bin Mortaza",
+    "img": "https://i.ibb.co/G2nKxMf/mashrafi-img.png",
+    "position": "Right-Arm Bowler",
+    "batting": "15.5",
+    "bowling": "7.7",
+    "salary": 8
+}, {
+    "id": 9,
+    "name": "Rubel Hossain",
+    "img": "https://i.ibb.co/HCDRNF9/rubel-img.jpg",
+    "position": "Right-Arm Bowler",
+    "batting": "6,5",
+    "bowling": "8.00",
+    "salary": 2
+}, {
+    "id": 10,
+    "name": "Mohammad Saifuddin",
+    "img": "https://i.ibb.co/nMXFRPh/saifuddin-img.png",
+    "position": "Alll Rounder",
+    "bowling": "8.7",
+    "batting": "20.5",
+    "salary": 3
+}, {
+    "id": 11,
+    "name": "Shakib All Hasan",
+    "img": "https://i.ibb.co/hLHxprT/shakib-img.jpg",
+    "position": "All Rounder",
+    "batting": "30.5",
+    "bowling": "6.7",
+    "salary": 10
+}, {
+    "id": 12,
+    "name": "Taijul Islam",
+    "img": "https://i.ibb.co/bLrDMSw/taijul-img.jpg",
+    "position": "Left-Arm Spinner",
+    "batting": "10,5",
+    "bowling": "7.50",
+    "salary": 2
+}, {
+    "id": 13,
+    "name": "Tamim Iqbal",
+    "img": "https://i.ibb.co/Tq3MkCp/tamim-img.jpg",
+    "position": "Left-Handed Batsman",
+    "batting": "40,5",
+    "bowling": "0.00",
+    "salary": 8
+}, {
+    "id": 14,
+    "name": "Taskin Ahmed",
+    "img": "https://i.ibb.co/PwsDLSy/taskin-img.png",
+    "position": "Right-Arm Bowler",
+    "batting": "5,5",
+    "bowling": "7.00",
+    "salary": 2
+}, {
+    "id": 15,
+    "name": "Nishat Hasan Muktar",
+    "img": "https://i.ibb.co/2SDHK3X/2.jpg",
+    "position": "Main Coach",
+    "batting": "Head Coach",
+    "bowling": "0.00",
+    "salary": 20
+}]

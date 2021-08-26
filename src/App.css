@@ -6,14 +6,28 @@ body {
 }
 
 .App {
-  width: 100%;
+  width: 100vw;
   min-height: 100vh;
 
   /* --GlassMorphism-- */
-  background-color: #f5e0c4;
+  /* background-color: #f5e0c4;
   background: rgba(255, 255, 255, 0.25);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(5.5px);
   -webkit-backdrop-filter: blur(5.5px);
-  border-radius: 10px;
+  border-radius: 10px; */
 }
+
+/* --For Players Component Start-- */
+.app-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* gap: 1rem; */
+}
+
+@media only screen and (max-width: 600px) {
+  .app-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+/* --For Players Component End-- */

@@ -1,0 +1,36 @@
+.players-container{
+ padding: 3rem;
+}
+.player-container {
+  border: 1px solid #f5f0f0;
+  width: 300px;
+  height: 100%;
+  border: 1px solid black;
+  text-align: center;
+  color: #fff;
+  padding: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* --Glassmorphism-- */
+  background-color: #f5e0c4;
+  background: #00000f;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  border-radius: 10px;
+}
+.player-container img {
+  border-radius: 50%;
+  width: 12.5rem;
+  height: 12.5rem;
+}
+
+.player-btn {
+  border: none;
+  border-radius: 2px;
+  width: 150px;
+  padding: 5px;
+  background-color: indianred;
+  color: white;
+}
