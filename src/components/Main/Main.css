@@ -24,6 +24,7 @@
 }
 .half-width h1 {
   color: #132f3a;
+  text-shadow: 2px 2px 4px #270808;
 }
 .half-width h4 {
   font-family: Arial, Helvetica, sans-serif;

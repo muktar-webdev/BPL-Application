@@ -29,20 +29,25 @@ function App() {
   };
 
   return (
-    <ContextApi.Provider value={[playerAdd]}>
-      <div className="App">
-        <Header></Header>
-        <Main></Main>
-        {/* --Player Component-- */}
-        <div className="player-app-container">
-          {players.map((player) => (
-            <Players player={player} playerInfo={handleAddPlayerBtn}></Players>
-          ))}
-        </div>
+    
+      <ContextApi.Provider value={[playerAdd]}>
+        <div className="App">
+          <Header></Header>
+          <Main></Main>
+          {/* --Player Component-- */}
+          <div className="player-app-container">
+            {players.map((player) => (
+              <Players
+                player={player}
+                playerInfo={handleAddPlayerBtn}
+              ></Players>
+            ))}
+          </div>
 
-        <Footer></Footer>
-      </div>
-    </ContextApi.Provider>
+          <Footer></Footer>
+        </div>
+      </ContextApi.Provider>
+    
   );
 }
 
